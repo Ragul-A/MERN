@@ -1,0 +1,40 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ragul-A/MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ragul-A/MERN/issues"
+  },
+  "homepage": "https://github.com/Ragul-A/MERN#readme",
+  "dependencies": {
+    "@babel/node": "^7.14.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.31.0",
+    "eslint-plugin-react": "^7.24.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.12",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
