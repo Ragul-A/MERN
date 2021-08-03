@@ -14,3 +14,8 @@ server.use(express.json());
 server.listen(config.port, () => {
   console.log('Server listening on PORT', config.port);
 });
+
+server.post('/register', function(req, res) {
+  console.log('req', req);
+  console.log('res', res);
+});

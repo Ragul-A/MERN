@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import FormControl from '@material-ui/core/FormControl';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-
+import {register} from '../service/apiService'
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -29,6 +29,7 @@ function Registration()  {
         console.log('event', event )
         event.preventDefault();
         alert(`Submitting Name ${JSON.stringify(regdetails)}`)
+        register(regdetails);
     }
     const changeValue = (event:any)=> { const val = event.target.value;
         console.log('changevalue', event.target.value)
@@ -96,7 +97,6 @@ function Registration()  {
       <Button  type="submit" value="Submit" variant="contained" color="primary">
         Submit
       </Button>
-      <input type="submit" value="Submit" />
       </form>
         </div>
     )
